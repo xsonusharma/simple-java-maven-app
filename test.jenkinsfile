@@ -4,6 +4,7 @@ pipeline{
         stage("See the Build Number"){
             steps{
                 echo "Build Number : ${env.BUILD_NUMBER}"
+                echo "test"
             }
         }
     }
